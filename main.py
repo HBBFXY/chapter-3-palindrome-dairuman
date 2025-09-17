@@ -1,4 +1,4 @@
- n = input('请输入一个5位数字: ')
+n = input('请输入一个5位数字: ')
 if len(n) != 5 or not n.isdigit():
     print('输入错误: 请输入5位数字')
 else:
